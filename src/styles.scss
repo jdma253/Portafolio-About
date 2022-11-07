@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+  background-color: black;
+  margin: 0%;
+  padding: 0%;
+  scroll-behavior: smooth;
+  padding:0;
+  margin:0;
+  height:100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+body{
+  background-color: black;
+  margin: 0%;
+  padding: 0%;
+  //width: 91%
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  //overscroll-behavior-y: scroll;
+}
+html::-webkit-scrollbar {
+  //display: none;
+}
